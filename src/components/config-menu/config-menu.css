@@ -1,0 +1,34 @@
+.ConfigMenu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(247, 187, 165, 0.7);
+}
+
+.ConfigMenu.hidden {
+  display: none;
+}
+
+.ConfigMenu .header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(247, 187, 165);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.ConfigMenu .header .icon-container {
+  margin-right: 1rem;
+}
+
+.ConfigMenu .header .icon-container:hover .material-symbols-outlined {
+  font-weight: bold;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+}
